@@ -8,7 +8,7 @@ README Date: 4/3/2025
 Bikeshare Pandas Project
 
 ### Description
-Describe what your project is about and what it does
+The project consists of analyzing data from bikeshare companies in three different cities: Chicago, Washington DC and New York City. The information ranges from stops, to trip duration, to type of users for these services. You can interact with the project script and it will give you the option to group by city, month, and day of the week.
 
 ### Files used
 Include the files used
