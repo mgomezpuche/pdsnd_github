@@ -8,7 +8,7 @@ CITY_DATA = { 'chicago': 'chicago.csv',
 
 def print_s(s):
     print(s)
-    time.sleep(2)
+    time.sleep(1)
     
 
 def get_filters():
@@ -85,7 +85,7 @@ def load_data(city, month, day):
 
     # extract month and day of week from Start Time to create new columns
     df['month'] = df['Start Time'].dt.month
-    df['day_of_week'] = df['Start Time'].dt.weekday_name
+    df['day_of_week'] = df['Start Time'].dt.strftime("%A")
 
     # filter by month if applicable
     if month != 'all':
